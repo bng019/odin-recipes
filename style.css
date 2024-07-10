@@ -1,0 +1,53 @@
+h1, p, .main_h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe_book {
+    height: 310px;
+    width: auto;
+}
+
+.recipe {
+    height: 200px;
+    width: auto;
+}
+
+.main_gif {
+    height: 250px;
+    width: auto;
+}
+
+.recipe_list {
+    display: table;
+    margin: 0 auto;
+}
+
+li {
+    padding-top: 12px;
+}
+
+.main_page_recipe_img {
+    height: 18px;
+    width: auto;
+    float: left;
+}
+
+.main-video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.recipe {
+    background-image: url("img/white.jpg");
+}
